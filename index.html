@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,700;1,400&family=Great+Vibes&family=Khand:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="headerWrapper">
+                <img src="./assets/LOGObARA.png" width="130px" alt="">
+                <div class="innerHeader">
+                    <a href="#">Home</a>
+                    <a href="#" class="active">Menu</a>
+                    <a href="#">Recipes</a>
+                    <a href="#">Our contacts</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="home">
+            <h1>
+                Enjoy delicious dishes
+            </h1>
+            <p>
+                We provide you with a large number of delicious dishes and their recipes. Choose and enjoy!
+                <br> <br> | <br> ˅
+            </p>
+        </section>
+        <section class="catalog">
+            <div class="container">
+                <div class="wrapperCatalog">
+                    <div class="innerCatalog">
+                        <label for="all"> All</label>
+                        <input type="radio" checked="true" name="type" id="all">
+                    </div>
+                    <div class="inner">
+                        <label for="search"> Search</label>
+                        <input type="radio" name="type" id="search">
+                    </div>
+                </div>
+                <div class="search-wrapper hidden" >
+                    <input type="text" class="searchInput" id="searchInput" placeholder="Search...">
+                    <button class="submit">Search</button>
+                    <div class="result hidden">
+
+                    </div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!---->
+<script src="./script.js"></script>
+<!---->
+</body>
+</html>
